@@ -24,7 +24,7 @@ repository_name="${tmp1%%.*}"
 local_path="$PWD/$repository_name/"
 
 ###时间格式(不用动)
-DATA_TIME=`date +'%Y年%m月%d日 %H:%M:%S'`
+DATE_TIME=`date +'%Y年%m月%d日 %H:%M:%S'`
 
 
 
