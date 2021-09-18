@@ -2,7 +2,7 @@
 
 #根据需要创建定时任务
 # 参考命令：crontab -e
-# 8 8 * * * root /root/autopush.sh &2>&1 >>/root/autopush.log
+# 8 8 * * * bash /root/autopush.sh &2>&1 >>/root/autopush.log
 #
 
 #git的参数配置，邮箱，作者(改)
