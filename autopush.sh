@@ -39,6 +39,9 @@ push_code(){
   
   cd $local_path
   
+  git pull  
+  sleep 3  
+
   # 复制文件到仓库
   /usr/bin/cp -r $file_path  $local_path
   
